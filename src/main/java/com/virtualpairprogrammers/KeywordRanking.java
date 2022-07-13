@@ -3,6 +3,7 @@ package com.virtualpairprogrammers;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.Level;
@@ -40,6 +41,8 @@ public class KeywordRanking {
 			
 		List<Tuple2<Long,String>> res=sorted.take(10);
 		res.forEach(System.out::println);
+//		Scanner scanner=new Scanner(System.in);
+//		scanner.nextLine();
 		sc.close();
 		
 		
